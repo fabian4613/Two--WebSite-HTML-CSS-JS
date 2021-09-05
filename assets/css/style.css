@@ -1267,7 +1267,8 @@ iframe {
   max-width: 100%;
   box-sizing: border-box;
   height: auto;
-  border: 2px solid #35e888;
+  border: ridge #35e888;
+  border-radius: 3px;
   animation: animate 5s linear infinite;
   -webkit-animation: animate 5s linear infinite;
 }
