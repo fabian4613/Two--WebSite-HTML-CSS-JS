@@ -394,12 +394,13 @@ h6 {
   z-index: 9999;
   overflow-y: auto;
   background: rgba(0, 0, 0, 0.7);
-  transition: ease-in-out 0.2s;
+  transition: cubic-bezier(0.55, 0.09, 0.68, 0.53) 0.3s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
-  border: 2px solid rgba(255, 255, 255, 0.12);
+  border: 2px solid #18d683;
+  animation: animate 3s linear infinite;
 }
 
 .mobile-nav * {
