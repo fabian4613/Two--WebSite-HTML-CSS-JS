@@ -364,7 +364,7 @@ h6 {
 }
 
 .nav-menu a {
-    display: block;
+    display: flex;
     position: relative;
     color: rgba(255, 255, 255, 0.7);
     font-size: 16px;
